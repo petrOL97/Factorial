@@ -10,6 +10,6 @@ def factorial_tail_zeros_count(n):
         while(n > 0):
             n = n // 5
             count = count + n
-        return(count)
+        return(count) # comment
 
 print(factorial_tail_zeros_count(input()))
