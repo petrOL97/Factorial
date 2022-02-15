@@ -8,7 +8,7 @@ def factorial_tail_zeros_count(n):
 
 try:
     n = int(input())
-    if n<0:
+    if n < 0:
         print("You can't use negative number")
     else:
         print(factorial_tail_zeros_count(n))
