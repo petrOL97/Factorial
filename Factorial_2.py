@@ -1,5 +1,5 @@
 def factorial_tail_zeros_count(n):
-    ''' Return count of zeros at the end of factorial's value'''
+''' Return count of zeros at the end of factorial's value'''
     if not isinstance(n, int):
         raise TypeError("Input value type must be INT")
         factorial_tail_zeros_count(n)
