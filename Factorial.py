@@ -1,5 +1,5 @@
 def factorial_tail_zeros_count(n):
-''' Return count of zeros at the end of factorial value'''
+    ''' Return count of zeros at the end of factorial value'''
     count = 0
     while(n > 0):
         n = n // 5
